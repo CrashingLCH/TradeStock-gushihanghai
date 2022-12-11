@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.menuA {
+	background: #333;
+	float: left;
+	padding-top: 2px;
+	width: 500px;
+	height:400px;
+}
+
+.menuA li {
+	float: left;
+}
+
+.menuA li a {
+	display: block;
+	float: left;
+	color: #fff;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 5px;
+	margin-left: 2px;
+}
+
+.menuA .check1 a {
+	background: #fff;
+	color: #000;
+}
+
+.menuB {
+	clear: both;
+	border: 2px solid #000;
+	border-top: none;
+	background: #fff;
+}
+
+.menuB table {
+	display: none;
+	padding: 15px;
+	line-height: 180%;
+}

@@ -1,0 +1,435 @@
+@charset "UTF-8";
+body{
+	position:relative;
+	background:url(./img/road.jpg) no-repeat;
+}
+.head{
+	position:relative;
+	width:900px;
+	height:60px;
+	top:-20px;
+	left:300px;
+	background-color:#d70000;
+	border:1px solid #969696;
+	border-bottom:none;
+}
+h4, h6{
+	position:relative;
+	text-align:center;
+	color:white;
+	font-weight:bold;
+}
+h4{
+	font-size:18px;
+	top:-10px;
+}
+h6{
+	font-size:15px;
+	top:-45px;
+}
+.tbox{
+	position:relative;
+	width:900px;
+	left:300px;
+	height:650px;
+	top:-20px;
+	border:1px solid #969696;
+}
+.tlist{
+	width:900px;
+	height:20px;
+	background-color:white;
+	border-bottom:1px solid #cccccc;
+}
+.hinfo li{
+	list-style:none;
+	position:relative;
+	width:160px;
+	height:20px;
+	float:left;
+	top:-8.5px;
+	text-align:center;
+	color:#828282;
+	font-size:18px;
+	font-family:"yahei";
+}
+.minfo td,.minfo1 td{
+	position:relative;
+	width:200px;
+	height:30px;
+	float:left;
+	text-align:center;
+	color:#828282;
+	font-size:18px;
+	font-family:"yahei";
+	top:0px;
+}
+.hinfo li.active{
+	border-bottom: 2px solid #cf0f0f;
+    border-top: none;
+    background-color: #fff;
+    height: 30px;
+    color:#cf0f0f;
+    box-sizing: border-box;
+}
+td.active2,td.active3{
+    color:#cf0f0f;
+}
+#nprice{
+	display:none;
+}
+.cha, .cha1{
+	position:relative;
+	width:310px;
+	left:150px;
+	top:-5px;
+}
+.ssk2 span,.ssk1 span{
+	color:black;
+}
+.ftn,.sftn{
+	position:relative;
+	float:left;
+	padding-left:10px;
+}
+.frn,.sfrn{
+	position:relative;
+	float:right;
+	padding-right:10px;
+}
+.ssk, .ssk1, .ssk2{
+	position:relative;
+	left:3px;
+	width:248px;
+	height:28px;
+	text-align:center;
+	font-size:18px;
+	color:#828282;
+}
+.ssk, .ssk2{
+	border:1px solid red;
+}
+.ssk1{
+	border:1px solid #0000fd;
+}
+
+.tright ul>li{
+	list-style:none;
+	padding:3px;
+}
+.tright input{
+	height:30px;
+	width:250px;
+	font-size:18px;
+	border:1px solid red;
+	outline:none;
+	text-align:center;
+}
+.cha1 input{
+	height:30px;
+	width:250px;
+	font-size:18px;
+	border:1px solid #0000fd;
+	outline:none;
+	text-align:center;
+}
+
+#search,#search2{
+	position:relative;
+	width:50px;
+	height:34.5px;
+	top:0px;
+	border:1px solid red;
+	border-left:none;
+	line-height: 30px;
+	background-color:#ae0000;
+	color:white;
+}
+#search2{
+	position:relative;
+	top:10px;
+}
+#search1{
+	position:relative;
+	width:50px;
+	height:34.5px;
+	top:0px;
+	border:1px solid #0000fd;
+	border-left:none;
+	line-height: 30px;
+	background-color:#0000ea;
+	color:white;
+}
+.tmr button{
+	position:relative;
+	font-size:12px;
+	margin-right:34px;
+	border-radius:5px;
+	color:#4c4c4c;
+}
+.bt3, .bt2{
+	background-color:white;
+	border:1px solid #aaaaaa;
+}
+.bt2 span{
+	color:#008600;
+}
+.bt3 span{
+	color:#fd0000;
+}
+.bt1{
+	border:none;
+	
+}
+.tleft{
+	position:relative;
+	width:150px;
+	height:245px;
+	top:-270px;
+	border:1px solid #b8b8b8;
+	left:500px;
+}
+.tf,.tf1{
+	position:relative;
+	top:0px;
+	width:192px;
+	left:-44px;
+}
+.tf,.tf1 ul>li>span{
+	position:relative;
+}
+.tf1 >ul{
+	border-top:1px solid #b0b0b0;
+	top:-10px;
+}
+.tf ul>li{
+	list-style:none;
+	position:relative;
+	font-size:14px;
+	font-weight:bold;
+	font-family:"yahei";
+	padding-top:1px;
+	left:-30px;
+}
+.tf1 ul>li{
+	list-style:none;
+	position:relative;
+	font-size:14px;
+	font-weight:bold;
+	font-family:"yahei";
+	padding-top:1px;
+	left:-30px;
+}
+.price{
+	font-size:14px;
+}
+.price span{
+	position:relative;
+	color:red;
+	left:15px;
+}
+.t1{
+	position:relative;
+	width:900px;
+	height:600px;
+}
+.rely,.rely1{
+	table-layout: fixed;
+	border-collapse:collapse;
+	border-spacing:0; 
+	position:relative;
+	top:-270px;
+	width:900px;
+	height:328px;
+}
+.k3{
+	width:860px;
+	height:20px;
+}
+.k3 li{
+	position:relative;
+	width:200px;
+	height:20px;
+	float:left;
+	text-align:center;
+	color:#828282;
+	font-size:14px;
+	font-family:"yahei";
+	top:-10px;
+	
+}
+.minfo,.minfo1,.k3{
+	border-bottom:1px solid #b0b0b0;
+}
+.k3 td{
+	width:150px;
+}
+.how button{
+	background-color:white;
+	border:1px solid #9f9f9f;
+	border-radius:15%;
+	position:relative;
+	margin-right:23px;
+	
+}
+.buy, .buy1{
+	width:260px;
+	height:30px;
+	color:white;
+	font-size:15px;
+	border:none;
+	border-radius:2%;
+	font-weight:bold;
+}
+.buy{
+	background-color:#cf0f0f;
+}
+.buy1{
+	background-color:#3131ff;
+}
+.tright .tgu {
+	position:relative;
+	font-size:10px;
+	color:#9a9a9a;
+}
+.tgu span{
+	color:#ff8448;
+}
+.tlist3 td,.tlist4 td{
+	position:relative;
+	width:200px;
+	height:20px;
+	float:left;
+	text-align:center;
+	color:#828282;
+	font-size:14px;
+	font-family:"yahei";
+	top:px;
+}
+.wls,.wls1{
+	position:relative;
+	display:-moz-inline-box; 
+	display:inline-block;
+	width:150px;
+	top:100px;
+	left:350px;
+	color:black;
+	font-size:18px;
+}
+.cx ul>li{
+	position:relative;
+	list-style:none;
+	width:894px;
+	border-bottom:1px solid #939393;
+	background-color:#d4d4d4;
+	left:-40px;
+	color:#000000;
+	font-family:"宋体";
+}
+.cc{
+	height:110px;
+}
+.cc1,.cc2{
+	position:relative;
+	left:-41px;
+	width:895px;
+	height:55px;
+}
+.cc2{
+		border-bottom:1px solid #b3b3b3;
+}
+.cc1 ul>li,.cc2 ul>li {
+	position:relative;
+	list-style:none;
+	float:left;
+	width:265px;
+	height:20px;
+	text-align:center;
+}
+.k4{
+	position:relative;
+	width:860px;
+	height:30px;
+	border-bottom:1px solid #b3b3b3;
+}
+.k4 li{
+	position:relative;
+	list-style:none;
+	float:left;
+	text-align:center;
+	top:10px;
+	width:200px;
+	color:gray;
+	font-size:16px;
+	font-family:"yahei";
+	top:2px;
+}
+.ys1,.ys2{
+	color:gray;
+	font-size:16px;
+	font-family:"宋体";
+}
+#over { /*整个弹窗的页面*/
+	opacity: 0.8; /*透明度*/
+	width:100%;
+	height:100%;
+	background: #272727; /*背景色*/
+	position: absolute;
+	top: 0;
+	left: 0; /*定位*/
+	display: none; /*隐藏*/
+	z-index: 2; /*覆盖*/
+}
+#recode { /* 弹框的页面*/
+	width: 300px; /*宽度*/
+	height: 150px; /*高度*/
+	background: #fff; /*背景色*/
+	display: none; /*隐藏*/
+	z-index: 3; /*覆盖*/
+	position: relative;
+	top: 150px;
+	left: 550px; /* 定位*/
+}
+#recode li{
+	list-style:none;
+	position:relative;
+	top:20px;
+}
+#tjk{
+	height:20px;
+	
+	border:1px solid gray;
+	border-right:none;
+}
+#sub1{
+	position:relative;
+	top:0.5px;
+	height:24px;
+	border-radius:0;
+	border:1px solid gray;
+	border-left:none;
+	line-height:20px;
+	background-color:#909090;
+	font-weight:bold;
+}
+#recode button{ 
+	position:relative;
+	top:50px;
+	left:85px;
+}
+.k2 span,.kn span,.knn3 span{
+	color:#c40000;
+	font-weight:bold;
+}
+.knn span, .knn1 span,.knn2 span{
+	color:#c40000;
+	font-weight:bold;
+}
+.wtt{
+	position:relative;
+	font-size:10px;
+	top:-8px;
+}
+.dm{
+	font-size:10px;
+}

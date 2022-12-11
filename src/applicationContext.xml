@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+    xmlns="http://java.sun.com/xml/ns/j2ee" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+        http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+        metadata-complete="true">
+<beans xmlns="http://www.springframework.org/schema/beans"   
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    
+ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+</beans>
+</web-app>

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+.box {
+	width: 390px;
+	height: 230px;
+	border: 1px solid #ccc;
+	float: left;
+	left: 0px;
+	position: relative;
+	top: 5px;
+}
+
+.inner {
+	width: 380px;
+	height: 220px;
+	position: relative;
+	overflow: hidden;
+	top: 5px;
+	left: 5px;
+}
+
+.inner img {
+	width: 380px;
+	height: 250px;
+	display: block;
+}
+
+.inner ul {
+	width:1000%;
+	position: absolute;
+	list-style: none;
+	left: 0;
+	top: 0;
+}
+
+.inner li {
+	float: left;
+}
+
+.inner ol {
+	position: absolute;
+	height: 5px;
+	right: 0px;
+	bottom: 20px;
+	text-align: center;
+	padding: 2px;
+}
+
+.inner ol li {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	background-color: #fff;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.inner ol .current {
+	background-color: red;
+}
+
+#arr {
+	display: none;
+}
+
+#arr span {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 5px;
+	top: 50%;
+	margin-top: -20px;
+	background: #fff;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-family: '黑体';
+	font-size: 30px;
+	color: #000;
+	opacity: 0.5;
+	border: 1px solid #fff;
+}
+
+#arr #sright {
+	right: 5px;
+	left: auto;
+}
